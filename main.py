@@ -5,12 +5,16 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
+# My solution:
+m = float(height)
+kg = float(weight)
+bmi = kg / m**2
+print(int(bmi))
 
-
-
-
-
-
+# Teacher Solutions:
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi)
+print(bmi_as_int)
 
 
 
